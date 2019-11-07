@@ -1,0 +1,98 @@
+
+*{  
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    /* margin : 40px 50px 0px 40px; */
+}
+/*Navigasi*/
+ul{
+    list-style-type: none;
+    height: 71px;
+    border-radius: 5px;
+    filter: drop-shadow(0px 3px 3.5px rgba(0,0,0,0.16));
+    background-color: #bdf17a;
+    border: 1px solid #77974f;
+    margin: 40px 50px 30px 50px;
+}
+li{
+    display: inline-block;
+    padding-top:26px;
+    float: left;
+}
+#Polban{
+    display: inline-block;
+    float: left;
+    font-size: 24px;
+    letter-spacing: 0.2px;
+    line-height: 4px;   
+    color: #1360ae;
+    font-family: "Neucha";
+    font-weight: 400;
+    width: 76px;
+    height: 37px;
+    text-align: left;
+    margin: 14px 46px 18px 46px;
+    padding-top:20px;    
+    /* padding-top: 12px; */
+    /* display: inline-block; */
+    /* margin-left: 57px; */
+    /* margin-right: 45px; */
+    /* padding: auto; */
+    /* margin-top: 15px; */
+    /* margin-bottom: 19px; */
+}
+.about{
+    font-size: 16px;
+    line-height: 1px;
+    color: #1a1a1a;
+    font-family: "Roboto";
+    font-weight: 400;
+    text-decoration: none;
+    padding: 25px 34px 25px 52px;
+    
+}
+.departments{
+    font-size: 16px;
+    line-height: 1px;
+    color: #1a1a1a;
+    font-family: "Roboto";
+    font-weight: 400;
+    text-decoration: none;
+    padding: 25px 34px 25px 34px;
+}
+.home{
+    font-size: 16px;
+    line-height: 1px;
+    color: #efe6e6;
+    font-family: "Roboto";
+    font-weight: 400;
+    padding: 25px 47px 25px 39px;
+    /* display: inline-block ; */
+    text-decoration: none;
+    /* width: 43px; */
+    height: 71px;
+    
+}
+#active{
+    /* width: 129px; */
+    height: 71px;
+    color: white;
+    background-color: #77974f;
+    border: 1px solid #77974f;
+}
+.image{
+    background-image: url("wisudawan_polban.jpg");
+    background-size: cover;
+    background-position: 0px -50px ;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* width: 100%; */
+    height: 600px;
+    border-radius: 5px;
+    border: 1px solid #bbb5b5;
+    /* display: block; */
+    margin-left: 50px;
+    margin-right: 50px;
+}
